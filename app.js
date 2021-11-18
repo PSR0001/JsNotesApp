@@ -1,6 +1,6 @@
 console.log('This is my Note app :)');
 
-// using event listner]
+// using event listner
 showNotes(); 
 let addBtn = document.getElementById('addBtn');
 addBtn.addEventListener("click", function (e) {
@@ -80,7 +80,7 @@ let search=document.getElementById('searchIt');
      let noteCards = document.getElementsByClassName('noteCard')
      Array.from(noteCards).forEach(function(element){
          let cardTxt = element.getElementsByTagName('p')[0].innerText;
-        //  console.log(cardTxt)
+    
         if(cardTxt.includes(searchval)){
             element.style.display = "block";
         }
