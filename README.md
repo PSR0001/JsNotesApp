@@ -1,4 +1,4 @@
-# **MaP-In-JS**
+# **Note-App**
 This is a demo project based on **Vanilla JavaScript** .
 
 ## **Contents**
